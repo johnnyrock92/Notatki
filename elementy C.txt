@@ -1,0 +1,16 @@
+JĘZYK C PODSTAWOWE ELEMENTY:
+/* To jest opis */ – komentarz wielowierszowy
+// Tojest opis – komentarz jednowierszowy
+
+#include <stdio.h> – dołącz bibliotekę stdio.h do programu (standardowa biblioteka wejścia/wyjścia)
+int main() – główna funkcja programu
+int – typ danych określający liczby całkowite (integer) od −2 147 483 648 do +2 147 483 647
+double – typ danych określający liczby zmiennoprzecinkowe
+printf(”Tekst”) – wypisz na ekranie napis „Tekst”
+printf(”%d”, a) – wypisz na ekranie zmienną całkowitą „a”
+printf(”%lf”, a) – wypisz na ekranie zmienną double „a”
+printf(”%4.2lf”, a) – wypisz na ekranie zmienną double „a” w formie liczby 0000.00
+printf(”\n”) – tworzy nowy wiersz przy wyświetlaniu skompilowanego programu
+Pętle:
+for (i=0; i<10; i++) – dla i=0; dopóki i<10; zwiększaj i o jeden po każdym przejściu pętli
+while (i<10) – dopóki i<10 wykonuj poniższe polecenia

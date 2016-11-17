@@ -1,0 +1,57 @@
+﻿git clone https://github.com/username/repository.git – pobieranie całego repozytorium na dysk
+git init – inicjuje repozytorium w katalogu (dodaje niewidoczne pliki gita)
+git status – sprawdza stan repozytorium (czy coś edytowano, usunięto, dodano, itd.)
+git add . – dodaje wszelkie zmiany w repozytorium
+git commit -m ”Opis zmian...” – tworzy rewizję i dodaje opis zmian których dokonano
+git push – wysłanie dokonanych zmian w plikach na serwer
+git pull – pobranie aktualnego stanu z serwera
+
+INTERFEJS GITHUBA:
+
+New collaborator – dodawanie nowego współpracownika
+
+Pull requests – zarządzanie żądaniami aktualizacji
+Issues – zintegrowany system śledzenia błędów
+Gist – udostępnianie notatek, kodu, wycinków
+
+Fork – umożliwia tworzenie własnej kopii repozytorium
+Star – śledzenie repozytorium
+
+commits – historia zmian tworzonych rewizji
+branch – lista gałęzi
+releases – wydanie (można określić numer wersji)
+contributor – współpracownicy
+
+
+TERMINAL KOMENDY:
+mkdir – utwórz katalog
+rmdir – usuń katalog
+mv – przenieś plik/katalog lub zmień nazwę
+cd Katalog – wejdź do katalogu
+cd .. – wyjdź z katalogu (Wstecz)
+cd – wyjdź z katalogu do katalogu głównego
+chmod – nadaj prawa plikowi
+ls – wyświetl zawartość katalogu
+cat – wyświetl zawartość pliku .txt lub .c itd.
+who – kto jest zalogowany ? (wyświetli listę aktualnie zalogowanych użytkowników na serwerze)
+tree – program pokazujący cały katalog wraz z jego zawartością w formie drzewa
+clear – wyczyść ekran terminala
+atom Katalog – komenda uruchomi program który otworzy Katalog wraz z jego zawartością i wyświetli go w formie drzewa
+atom program.c – komenda uruchomi program który otworzy plik program.c
+
+JĘZYK C PODSTAWOWE ELEMENTY:
+/* To jest opis */ – komentarz wielowierszowy
+// Tojest opis – komentarz jednowierszowy
+
+#include <stdio.h> – dołącz bibliotekę stdio.h do programu (standardowa biblioteka wejścia/wyjścia)
+int main() – główna funkcja programu
+int – typ danych określający liczby całkowite (integer) od −2 147 483 648 do +2 147 483 647
+double – typ danych określający liczby zmiennoprzecinkowe
+printf(”Tekst”) – wypisz na ekranie napis „Tekst”
+printf(”%d”, a) – wypisz na ekranie zmienną całkowitą „a”
+printf(”%lf”, a) – wypisz na ekranie zmienną double „a”
+printf(”%4.2lf”, a) – wypisz na ekranie zmienną double „a” w formie liczby 0000.00
+printf(”\n”) – tworzy nowy wiersz przy wyświetlaniu skompilowanego programu
+Pętle:
+for (i=0; i<10; i++) – dla i=0; dopóki i<10; zwiększaj i o jeden po każdym przejściu pętli
+while (i<10) – dopóki i<10 wykonuj poniższe polecenia

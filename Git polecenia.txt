@@ -1,0 +1,23 @@
+git clone https://github.com/username/repository.git – pobieranie całego repozytorium na dysk
+git init – inicjuje repozytorium w katalogu (dodaje niewidoczne pliki gita)
+git status – sprawdza stan repozytorium (czy coś edytowano, usunięto, dodano, itd.)
+git add . – dodaje wszelkie zmiany w repozytorium
+git commit -m ”Opis zmian...” – tworzy rewizję i dodaje opis zmian których dokonano
+git push – wysłanie dokonanych zmian w plikach na serwer
+git pull – pobranie aktualnego stanu z serwera
+
+INTERFEJS GITHUBA:
+
+New collaborator – dodawanie nowego współpracownika
+
+Pull requests – zarządzanie żądaniami aktualizacji
+Issues – zintegrowany system śledzenia błędów
+Gist – udostępnianie notatek, kodu, wycinków
+
+Fork – umożliwia tworzenie własnej kopii repozytorium
+Star – śledzenie repozytorium
+
+commits – historia zmian tworzonych rewizji
+branch – lista gałęzi
+releases – wydanie (można określić numer wersji)
+contributor – współpracownicy

@@ -1,0 +1,15 @@
+TERMINAL KOMENDY:
+mkdir – utwórz katalog
+rmdir – usuń katalog
+mv – przenieś plik/katalog lub zmień nazwę
+cd Katalog – wejdź do katalogu
+cd .. – wyjdź z katalogu (Wstecz)
+cd – wyjdź z katalogu do katalogu głównego
+chmod – nadaj prawa plikowi
+ls – wyświetl zawartość katalogu
+cat – wyświetl zawartość pliku .txt lub .c itd.
+who – kto jest zalogowany ? (wyświetli listę aktualnie zalogowanych użytkowników na serwerze)
+tree – program pokazujący cały katalog wraz z jego zawartością w formie drzewa
+clear – wyczyść ekran terminala
+atom Katalog – komenda uruchomi program który otworzy Katalog wraz z jego zawartością i wyświetli go w formie drzewa
+atom program.c – komenda uruchomi program który otworzy plik program.c
